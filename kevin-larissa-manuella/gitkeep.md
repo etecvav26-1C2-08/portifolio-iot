@@ -36,5 +36,30 @@ Uma geladeira inteligente que monitora a validade dos produtos e envia uma lista
 **​Vantagens:** Baixo custo, grande comunidade de suporte para resolver erros e flexibilidade para modificar o design do hardware conforme a necessidade do projeto.
  
 **​Desvantagens:** Menor garantia de suporte técnico oficial, possíveis vulnerabilidades de segurança se o código não for bem auditado e variações de qualidade entre diferentes fabricantes do mesmo design aberto.
+# Exercício 5 - Pergunta conceitual
+
+## Função do Microcontrolador
+
+​O microcontrolador atua como o **"cérebro"** do sistema embarcado. Ele é um computador em um único chip que executa o código programado para ler sinais de entrada (sensores), processar essas informações logicamente e tomar decisões, enviando comandos para os periféricos de saída (atuadores).
+
+
+# Exercício 6 - Pergunta de aplicação
+
+
+## Projeto: Alerta de Inundação Residencial
+
+**​Problema:** Alagamentos em áreas de serviço ou porões.
+
+**​Solução:** Utilizar um sensor de nível de água ou um sensor de umidade de solo no chão.
+
+**​Funcionamento:** Quando o sensor detectar a presença de água acima de um limite, o 
+microcontrolador aciona um buzzer (alarme sonoro) e um LED vermelho, avisando o morador antes que o dano aumente.
+
+
+# Exercício 7 - Pergunta de investigação
+
+## Circuito com Botão
+
+​Nesse circuito, o botão funciona como uma entrada digital. O pino do botão é configurado como INPUT (geralmente com um resistor de pull-up ou pull-down). No código, uma estrutura condicional (if) verifica o estado do pino: se o botão for pressionado, o circuito fecha, o microcontrolador lê o sinal e envia um comando HIGH para o pino do LED, completando a lógica de acionamento por demanda.
 
 
