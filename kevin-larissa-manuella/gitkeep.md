@@ -61,5 +61,29 @@ microcontrolador aciona um buzzer (alarme sonoro) e um LED vermelho, avisando o 
 ## Circuito com Botão
 
 ​Nesse circuito, o botão funciona como uma entrada digital. O pino do botão é configurado como INPUT (geralmente com um resistor de pull-up ou pull-down). No código, uma estrutura condicional (if) verifica o estado do pino: se o botão for pressionado, o circuito fecha, o microcontrolador lê o sinal e envia um comando HIGH para o pino do LED, completando a lógica de acionamento por demanda.
+# Exercício 8 - Pergunta de reflexão
+
+## Movimento Maker
+
+
+​O movimento maker (cultura do "faça você mesmo") democratiza o acesso à tecnologia ao incentivar o aprendizado prático (learning by doing). Ele tira a teoria do papel, permitindo que estudantes criem protótipos reais com ferramentas acessíveis. Isso estimula a criatividade, o raciocínio lógico e a resolução de problemas reais de forma colaborativa e interdisciplinar.
+
+
+# Exercício 9 - Pergunta de aplicação
+
+## Irrigação Automatizada
+
+**​Eles trabalham em um ciclo de feedback:** ​O sensor de umidade do solo mede a quantidade de água na terra e envia esse dado ao controlador.
+​O controlador compara o valor com o limite programado.
+​Se o solo estiver seco, o controlador aciona o atuador (bomba d'água ou válvula solenoide) para iniciar a rega.
+​Quando o sensor detecta que a umidade ideal foi atingida, o controlador desliga o atuador.
+
+
+# Exercício 10 - Pergunta de investigação
+
+## Modificação de Projeto (Exemplo)
+​Ao explorar um projeto de semáforo no Wokwi, alterei o parâmetro da variável de tempo do LED Verde de 5000ms para 10000ms.
+
+**Resultado:** O fluxo simulado de carros "passaria" por mais tempo, aumentando a vazão da via. Essa modificação mostra como pequenos ajustes no código alteram o comportamento físico do sistema sem precisar trocar nenhum componente de hardware.
 
 
