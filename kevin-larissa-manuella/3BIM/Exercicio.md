@@ -82,4 +82,3 @@ Nesse caso, o sistema funciona sozinho e não possui conexão com a Internet.
 Nesse sistema, os dados podem ser enviados pela Internet e o usuário consegue acompanhar as informações pelo aplicativo.
 
 Por isso, o **Sistema B é o que mais se encaixa no conceito de IoT**, pois possui conexão com a Internet e permite a troca de informações entre o dispositivo e outros sistemas.
-```
