@@ -1,5 +1,6 @@
 
-# Exercícios
+# Exercícios 
+Larissa, Kevin Willian e Manuela
 
 ## Exercício 1 - Pergunta conceitual
 
